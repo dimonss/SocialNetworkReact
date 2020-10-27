@@ -1,24 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
+import logoBlack from './logoBlack.png';
 import './App.css';
-import Heder from './Heder'
-import Technologies from './Technologies'
+import Header from "./components/Heder";
+import NavBar from "./components/NavBar";
+import Profile from "./components/Profile";
 
 const App = () => {
   return (
-      <div><Heder />
-      <Technologies />
-        {/*<div className="App">*/}
+      <div className='app-wrapper'>
+          <Header />
+          <NavBar />
+          <Profile />
+      </div>
 
-        {/*</div>*/}
-    </div>
   );
 }
-
-
-
-
-
-
 
 export default App;
