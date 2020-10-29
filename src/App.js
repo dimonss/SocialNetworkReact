@@ -1,10 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
-import logoBlack from './logoBlack.png';
 import './App.css';
-import Header from "./components/Heder";
-import NavBar from "./components/NavBar";
-import Profile from "./components/Profile";
+import Header from "./components/Header/Heder";
+import NavBar from "./components/NavBar/NavBar";
+import Profile from "./components/Profile/Profile";
 
 const App = () => {
   return (

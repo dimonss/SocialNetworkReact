@@ -1,32 +1,23 @@
 import React from "react";
-import s from './Profile.module.css'
-import font from './font.jpg'
+import s from './MyPossts.module.css'
+import Posts from "./post/Posts";
 
 
-const Profile = () => {
-    return <div className={s.content}>
-        <div>
-            <img src={font} alt="USER IMG"/>
-        </div>
-        <div>
-            ava + discription
-        </div>
-        <div>
-            myposts
+const MyPosts = () => {
+    return <div>
+            My posts
             <div>
-                new post
+                <textarea name="" id="" cols="30" rows="10">Enter text</textarea>
+                <button>Add post</button>
             </div>
-            <div className={s.posts}>
-                <div className={s.item}>
-                    posts
-                </div>
-                <div className={s.item}>
-                    posts
-                </div>
-            </div>
+        <div className={s.posts}>
+            <Posts/>
+            <Posts/>
+            <Posts/>
+            <Posts/>
         </div>
-    </div>
+        </div>
 }
 
 
-export default Profile;
+export default MyPosts;

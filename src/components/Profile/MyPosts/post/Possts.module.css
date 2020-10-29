@@ -9,5 +9,9 @@
 }
 
 .item img{
-    width: 80px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border-color: #282c34;
+    border-style: solid;
 }

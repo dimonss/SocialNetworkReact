@@ -1,6 +1,7 @@
 import React from "react";
 import s from './Profile.module.css'
 import font from './font.jpg'
+import MyPosts from "./MyPosts/MyPosts";
 
 
 const Profile = () => {
@@ -11,20 +12,7 @@ const Profile = () => {
         <div>
             ava + discription
         </div>
-        <div>
-            myposts
-            <div>
-                new post
-            </div>
-            <div className={s.posts}>
-                <div className={s.item}>
-                    posts
-                </div>
-                <div className={s.item}>
-                    posts
-                </div>
-            </div>
-        </div>
+        <MyPosts />
     </div>
 }
 

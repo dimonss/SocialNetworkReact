@@ -14,27 +14,11 @@
 }
 
 
-.header{
-  grid-area: h;
-  background-color: aquamarine;
-}
 
 
-.nav{
-  grid-area: n;
-  background-color: goldenrod;
-
-}
 
 
-.content{
-  grid-area: c;
-  background-color: chartreuse;
-}
 
-.header img{
-  width: 60px;
-}
-.content img{
-  width: 100%;
-}
+
+
+
