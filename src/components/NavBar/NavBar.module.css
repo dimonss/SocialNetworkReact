@@ -3,5 +3,18 @@
     background-color: goldenrod;
 }
 .item{
+    text-decoration: none;
+    font-size: 25px;
     color: #ffffff;
+    padding: 10px;
+}
+
+.item:hover{
+    color: gold;
+    font-size: 30px;
+}
+
+.item.active{
+    color: gold;
+    font-size: 30px;
 }
