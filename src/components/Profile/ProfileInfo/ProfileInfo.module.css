@@ -1,3 +1,32 @@
 .descriptionBlock {
+    display: grid;
+    grid-gap: 10px;
     padding: 25px;
+    grid-template-areas: "a b";
+    grid-auto-columns: 2fr 6fr;
+}
+img{
+    border-radius: 25px;
+    margin: 30px;
+    width: 900px;
+}
+.content{
+    border-radius: 25px;
+    width: 1000px;
+}
+
+.ava{
+    grid-area: a;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #2eb38e;
+    border-radius: 10px;
+}
+
+.description{
+    grid-area: b;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #2eb38e;
+    border-radius: 10px;
 }

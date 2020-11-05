@@ -1,23 +1,49 @@
-.content{
-    grid-area: c;
-    background-color: chartreuse;
-}
+/*.content{*/
+/*    grid-area: c;*/
+/*    background-color: #2eb38e4a;*/
+/*}*/
 
 
-.content img{
-    width: 100%;
-}
+/*.content img{*/
+/*    width: 100%;*/
+/*}*/
 
 .item .ava{
+    grid-area: a;
     width: 90px;
     height: 90px;
     border-radius: 50%;
     border-color: #282c34;
     border-style: solid;
+    margin-left: 20px;
 }
 .item img{
-    width: 60px;
-    height: 60px;
+    width: 55px;
     border-radius: 50%;
 
+}
+
+.like{
+    grid-area: c;
+    text-align: center;
+    font-size: 32px;
+}
+.item{
+    display: grid;
+    grid-template-areas:
+"a b c";
+    grid-auto-columns: 1fr 6fr 1fr;
+    background-color: #2eb38e;
+    border-radius: 90px;
+    border-style: solid;
+    margin: 10px;
+
+}
+
+.messages{
+    grid-area: b;
+    margin: 2px;
+    padding: 15px;
+    background-color: #96f3d9;
+    border-radius: 20px;
 }

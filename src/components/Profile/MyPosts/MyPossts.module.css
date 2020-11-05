@@ -2,10 +2,14 @@
     grid-area: c;
     background-color: chartreuse;
 }
-
+.postsAreaAndButton{
+    display: grid;
+    grid-template-areas: "a b";
+    grid-auto-columns: 4fr 1fr;
+}
 
 .content img {
-    width: 100%;
+    width: 100px;
 }
 
 .item img {
@@ -18,5 +22,27 @@
 }
 
 .postsBlock {
-    padding: 25px;
+    padding-left: 25px;
+}
+textarea{
+    grid-area: a;
+    font-size: 20px;
+}
+
+button:hover{
+    color: gold;
+    font-size:32px;
+}
+button{
+    grid-area: b;
+    font-size: 30px;
+    width: 160px;
+    height: 110px;
+    color: #ffffff;
+    background-color: #2eb38e;
+    border-radius: 12px;
+}
+
+button:active{
+   transform: translateY(2px);
 }

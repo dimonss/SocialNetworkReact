@@ -1,11 +1,17 @@
 .nav{
     grid-area: n;
-    background-color: goldenrod;
+    background-color: #2eb38e;
+    border-radius: 22px;
+    width: 260px;
+    padding-top: 30px;
 }
 .item{
     text-decoration: none;
     font-size: 25px;
     color: #ffffff;
+    margin-left: 75px;
+    border-style: solid;
+    border-radius: 10px;
     padding: 10px;
 }
 

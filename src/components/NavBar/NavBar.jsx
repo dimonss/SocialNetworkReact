@@ -6,18 +6,26 @@ import {NavLink} from "react-router-dom";
 const NavBar = () => {
     return <nav className={s.nav}>
         <div>
-            <NavLink className={s.item} to='/profile'>Profile</NavLink>
+            <NavLink className={s.item} to='/profile' activeClassName = {s.active}>Profile</NavLink>
         </div>
+        <br/>
+        <br/>
         <div>
-            <NavLink className={s.item} to='/dialogs'>Dialogs</NavLink>
+            <NavLink className={s.item} to='/dialogs' activeClassName = {s.active}>Dialogs</NavLink>
         </div>
+        <br/>
+        <br/>
         <div>
-            <a className={s.item} href='http://www.dich.ga'>Music</a>
+            <NavLink className={s.item} to='http://www.dich.ga' activeClassName = {s.active}>Music</NavLink>
         </div>
+        <br/>
+        <br/>
         <div>
             <br/>
-            <a className={s.item} href='http://www.dich.ga'>Settings</a>
+            <NavLink className={s.item} to='http://www.dich.ga' activeClassName = {s.active}>Settings</NavLink>
         </div>
+        <br/>
+        <br/>
     </nav>
 }
 

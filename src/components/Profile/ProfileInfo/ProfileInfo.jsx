@@ -9,7 +9,12 @@ const ProfileInfo = () => {
             <img src={font} alt="USER IMG"/>
         </div>
         <div className={s.descriptionBlock}>
-            ava + discription
+            <div className={s.ava}>
+                ava
+            </div>
+            <div className={s.description}>
+                discription
+            </div>
         </div>
 
     </div>

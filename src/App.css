@@ -6,17 +6,17 @@
   "h h"
   "n c";
 
-  grid-template-rows: 60px 1fr;
+  grid-template-rows:  100px 1fr;
   grid-auto-columns: 2fr 10fr;
-  /*grid-gap: 10px;*/
-
-  width: 1720px;
+  grid-gap: 10px;
+  width: 1300px;
 }
 
-app-wrapper-content {
+.app-wrapper-content {
   grid-area: c;
-  background-color: cornflowerblue;
-    padding: 10px;
+  background-color: #2eb38e4a;
+  padding: 10px;
+  border-radius: 30px;
 }
 
 
