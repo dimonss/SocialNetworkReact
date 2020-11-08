@@ -8,7 +8,7 @@ const Posts = (props) => {
     return <div className={s.posts}>
                 <div className={s.item}>
                     <img className={s.ava} src={avatara} alt=""/>
-                    <div className={s.messages}>{props.massage}</div>
+                    <div className={s.messages}>{props.message}</div>
                     <div className={s.like}>
                         {props.amountLikes}
                         <img id="like" src={likeImg} alt="like"/>
