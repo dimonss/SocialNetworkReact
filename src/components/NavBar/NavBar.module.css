@@ -9,18 +9,28 @@
     text-decoration: none;
     font-size: 25px;
     color: #ffffff;
-    margin-left: 75px;
+    margin-left: 50px;
     border-style: solid;
     border-radius: 10px;
     padding: 10px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
 }
 
 .item:hover{
     color: gold;
     font-size: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 .item.active{
+    margin-left: 75px;
     color: gold;
     font-size: 30px;
+}
+.item.active:hover{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

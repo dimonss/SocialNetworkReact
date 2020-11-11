@@ -3,21 +3,47 @@
     grid-template-columns: 2fr 10fr;
 }
 
-
 .dialogsItems {
     padding: 10px;
-
-}
-
-.dialogsItems .active {
-    color: gold;
+    font-size: 20px;
 }
 
 .messages {
-    padding: 10px;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 20px 80px;
+    border-style: solid;
+    background-color: #d5ece6;
+    border-color: #b3e4d6;
 
 }
 
-.messages .message {
 
+.dialogsItems .active {
+    color: gold;
+    font-size: 25px;
+    margin-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+.navLink{
+    display: inline-block;
+    width: 100px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    color: #279879;
+}
+.navLink:hover{
+    font-size: 25px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+.navLink.active:hover{
+    padding-top: 6px;
+    padding-bottom: 5px;
 }
