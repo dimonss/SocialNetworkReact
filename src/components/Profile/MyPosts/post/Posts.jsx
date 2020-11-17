@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import s from './Possts.module.css'
 import avatara from './avatara.jpg'
 import likeImg from './like.png'
@@ -18,4 +18,4 @@ const Posts = (props) => {
 }
 
 
-export default Posts;
+export default Posts

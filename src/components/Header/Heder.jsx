@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import s from './Header.module.css'
 import logo from './logoBlack.png'
 
@@ -10,4 +10,4 @@ const Header = () => {
 
 }
 
-export default Header;
+export default Header
