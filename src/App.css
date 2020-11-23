@@ -18,6 +18,17 @@
   padding: 10px;
   border-radius: 30px;
 }
+button:focus{
+  outline: none;
+}
+
+textarea{
+  resize: none;
+}
+
+textarea:focus{
+  outline: none;
+}
 
 
 

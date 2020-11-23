@@ -1,3 +1,24 @@
 .imgAvavtara {
     width: 200px;
 }
+.button:hover{
+    transition: 0.5s all;
+    color: gold;
+    font-size:32px;
+}
+.button{
+    transition: 1s all;
+    grid-area: b;
+    font-size: 30px;
+    width: 160px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #2eb38e;
+    border-radius: 12px;
+    margin: 0px 0px 0px 50px;
+}
+
+.button:active{
+    transition: 0.1s all;
+    transform: translateY(2px);
+}

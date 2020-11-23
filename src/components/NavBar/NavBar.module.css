@@ -6,6 +6,7 @@
     padding-top: 30px;
 }
 .item{
+    transition: 1s all;
     text-decoration: none;
     font-size: 25px;
     color: #ffffff;
@@ -18,19 +19,26 @@
     text-align: center;
 }
 
+
 .item:hover{
+    transition: 0.1s all;
     color: gold;
-    font-size: 30px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    transform: scale(1.05) translateX(15px);
 }
 
 .item.active{
-    margin-left: 75px;
+    transition: 0.1s all;
+    transform: translateX(50px) scale(1.1);
     color: gold;
-    font-size: 30px;
 }
-.item.active:hover{
-    padding-top: 10px;
-    padding-bottom: 10px;
+.item.active:active{
+    transition: 0.1s all;
+    transform: translateX(50px) scale(1.1);
+    color: gold;
+
+}
+.item:active{
+    transform: scale(0.9) translateX(15px);
+    transition: 0.1s all;
+
 }

@@ -6,6 +6,7 @@
     display: grid;
     grid-template-areas: "a b";
     grid-auto-columns: 4fr 1fr;
+    grid-gap: 10px;
 }
 
 .content img {
@@ -24,16 +25,19 @@
 .postsBlock {
     padding-left: 25px;
 }
-textarea{
+.textareaBox{
+    border-radius: 15px;
     grid-area: a;
     font-size: 20px;
+    padding: 8px;
+    resize: none;
 }
 
-button:hover{
+.buttonAdd:hover{
     color: gold;
     font-size:32px;
 }
-button{
+.buttonAdd{
     grid-area: b;
     font-size: 30px;
     width: 160px;
@@ -43,6 +47,6 @@ button{
     border-radius: 12px;
 }
 
-button:active{
+.buttonAdd:active{
    transform: translateY(2px);
 }
