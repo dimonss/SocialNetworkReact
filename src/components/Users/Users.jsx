@@ -6,13 +6,23 @@ import userPhoto from '../../assets/img/userPhoto.png'
 class Users extends React.Component {
     constructor(props) {
         super(props);
-            axios.get('https://social-network.samuraijs.com/api/1.0/users').then(response => {
-                this.props.setUsers(response.data.items)
-            })
+    }
+
+    componentDidMount() {
+         axios.get('https://social-network.samuraijs.com/api/1.0/users').then(response => {
+         this.props.setUsers(response.data.items)
+        })
     }
 
     render() {
         return <div>
+            <div className={style.divSelectorPage}>
+                <span className={style.selectorPage}>1</span>
+                <span >2</span>
+                <span >3</span>
+                <span >4</span>
+                <span >5</span>
+            </div>
             {
                 this.props.users.map(user => <div key={user.id}>
             <span>

@@ -19,15 +19,13 @@
 }
 
 
-.dialogsItems .active {
-    color: gold;
-    font-size: 25px;
-    margin-left: 20px;
-    padding-top: 6px;
-    padding-bottom: 5px;
-}
+/*.dialogsItems .active {*/
+/*    color: gold;*/
+/*    transform: scale(1.1) translateX(10px);*/
+/*}*/
 
 .navLink{
+    transition: 1.5s all;
     display: inline-block;
     width: 100px;
     border-radius: 10px;
@@ -38,12 +36,17 @@
     color: #279879;
 }
 .navLink:hover{
-    font-size: 25px;
-    padding-top: 6px;
-    padding-bottom: 5px;
+    transition: 0.1s all;
+    transform: scale(1.05) translateX(5px);
+}
+
+.navLink.active{
+    color: gold;
+    transition: 0.1s all;
+    transform: scale(1.1) translateX(15px);
 }
 
 .navLink.active:hover{
-    padding-top: 6px;
-    padding-bottom: 5px;
+    transition: 0.1s all;
+    transform: scale(1.1) translateX(15px);
 }
