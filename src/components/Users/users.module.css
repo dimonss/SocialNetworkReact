@@ -23,8 +23,9 @@
     transform: translateY(2px);
 }
 
-.selectorPage{
+.selectedPage{
     font-weight: bold;
+    padding: 10px;
 }
 .divSelectorPage{
     font-size: 25px;
